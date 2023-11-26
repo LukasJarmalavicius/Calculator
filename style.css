@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calculator {
+    width: 500px;
+    background-color: black;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.calculatorScreen {
+    padding: 5rem;
+    border-radius: 15px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+.calculatorButtons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 10px;
+    gap: 0.3rem;
+    color: white;
+
+}
+
+.topbutton {
+    font-family: inherit;
+    padding: 20px 90px 20px 90px;
+    border-radius: 15px;
+    flex: 1;
+}
+.button{
+    display: flex;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 30px 50px;
+    border-radius: 15px;
+    flex: 1;
+}
