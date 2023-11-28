@@ -6,7 +6,7 @@ body {
 }
 
 .calculator {
-    width: 500px;
+    width: 450px;
     background-color: black;
     border: 5px solid black;
     border-radius: 15px;
@@ -14,31 +14,52 @@ body {
 }
 
 .calculatorScreen {
-    padding: 5rem;
+    width: 450px;
+    height: 150px;
     border-radius: 15px;
     background-color: gray;
     margin-bottom: 10px;
+}
+
+.topScreen{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    height: 60px;
+        
+}
+
+.botScreen{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 50px
+    
+
 }
 .calculatorButtons {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 10px;
-    gap: 0.3rem;
+    gap: 5px;
     color: white;
 
 }
 
 .topbutton {
     font-family: inherit;
-    padding: 20px 90px 20px 90px;
+    padding: 30px 70px;
     border-radius: 15px;
     flex: 1;
 }
-.button{
+button{
     display: flex;
     font-family: inherit;
     font-size: 20px;
-    padding: 30px 50px;
+    padding: 40px;
     border-radius: 15px;
     flex: 1;
 }
