@@ -49,12 +49,31 @@ body {
 
 }
 
+.operator {
+    background-color: lightblue;
+    box-shadow: 0 2px 5px 0 lightskyblue 0 6px 5px 0 lightskyblue
+}
+.operator:hover {
+    background-color: lightskyblue;
+    box-shadow: 0 2px 5px 0 lightskyblue 0 6px 5px 0 lightskyblue
+}
+
 .topbutton {
     font-family: inherit;
     padding: 30px 70px;
     border-radius: 15px;
     flex: 1;
+    background-color: lightcoral;
+    border: none;
+    box-shadow: 0 2px 5px 0 darkgray, 0 6px 5px 0 red
+
 }
+
+.topbutton:hover {
+    background-color: red;
+}
+
+
 button{
     display: flex;
     font-family: inherit;
@@ -62,4 +81,7 @@ button{
     padding: 40px;
     border-radius: 15px;
     flex: 1;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 2px 5px 0 darkgray, 0 6px 5px 0 darkgray
 }
